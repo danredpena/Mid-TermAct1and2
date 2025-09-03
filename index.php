@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
     
-    <?php include 'main.php.php'; ?>
+    <?php include 'Act1.php'; ?>
 
    
 </body>

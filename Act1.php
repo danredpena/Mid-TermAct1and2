@@ -2,8 +2,8 @@
 echo "<h2>Activity 1: GadgetGrove Catalog with Arrays</h2>";
 
 // Indexed Arrays
-$devicee_names = ["Desktop PC", "Projector", "Smart TV", "E-Reader", "Wireless Mouse", "Mechanical Keyboard"];
-$devicee_prices = [40000.00, 15000.00, 28000.00, 6000.00, 1200.00, 4500.00];
+$devicee_names = ["CellPhone", "Monitor", "TV", "Headset", "Wireless Mouse", "Mechanical Keyboard"];
+$devicee_prices = [60000.00, 50000.00, 40000.00, 4000.00, 1500.00, 4500.00];
 
 echo "<p>Gadget Names: " . implode(", ", $devicee_names) . "</p>";
 echo "<p>First gadget price: ₱" . $devicee_prices[0] . "</p>";
@@ -28,11 +28,11 @@ echo "<p>Warranty: {$devicee_detail['warranty']}</p><br>";
 
 // Multidimensional Array
 $devicee_catalog = [
-    ["id" => 1, "name" => "Desktop PC", "price" => 40000.00, "inStock" => true],
-    ["id" => 2, "name" => "Projector", "price" => 15000.00, "inStock" => true],
-    ["id" => 3, "name" => "Smart TV", "price" => 28000.00, "inStock" => false],
-    ["id" => 4, "name" => "E-Reader", "price" => 6000.00, "inStock" => true],
-    ["id" => 5, "name" => "Wireless Mouse", "price" => 1200.00, "inStock" => true],
+    ["id" => 1, "name" => "CellPhone", "price" => 60000.00, "inStock" => true],
+    ["id" => 2, "name" => "Monitor", "price" => 50000.00, "inStock" => true],
+    ["id" => 3, "name" => "TV", "price" => 40000.00, "inStock" => false],
+    ["id" => 4, "name" => "Headset", "price" => 4000.00, "inStock" => true],
+    ["id" => 5, "name" => "Wireless Mouse", "price" => 1500.00, "inStock" => true],
     ["id" => 6, "name" => "Mechanical Keyboard", "price" => 4500.00, "inStock" => true],
 ];
 
